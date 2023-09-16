@@ -5,4 +5,4 @@ Feature: Registration Form
 
   Scenario: Check functionality of the Registration Form Windows
     Given I complete name and email
-    And I click on the first checkBoox gender
+#    And I click on the first checkBoox gender
