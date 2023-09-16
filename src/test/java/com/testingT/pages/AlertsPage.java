@@ -47,7 +47,6 @@ public class AlertsPage extends AbstractPage {
     }
 
 
-
     public AlertsPage clickOnButtonTwo() throws InterruptedException {
         Thread.sleep(100);
         buttonAlertTwo.click();
@@ -84,7 +83,6 @@ public class AlertsPage extends AbstractPage {
         String actualAlertMessage = resultOnPageTwo.getText();
         Assertions.assertEquals(expectedAlertMessage, actualAlertMessage);
         System.out.println("here are results " + expectedAlertMessage +  actualAlertMessage);
-
         return this;
     }
 
